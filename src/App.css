@@ -1,12 +1,129 @@
+.bold-text{
+  font-weight: bold;
+}
+
 .navbar{
   background: #5fc8a5
 }
 
 .navbar-font{
-  font-weight: bold;
   color: blue;
 }
 
 .logo{
   padding-right: 40px;
+}
+
+.welcome{
+  width: 100%;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.row{
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.column-left{
+  width: 20%;
+  flex: auto;
+  font-weight: bold;
+}
+
+.column-right{
+  flex: auto;
+  width: 70%;
+  margin-top: 1em;
+}
+
+.about-p{
+  font-size: 1.5vw;
+}
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .about-p{
+    font-size: 3vw;
+  }
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .row{
+    display: flex;
+    /* max-width: 90%; */
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .column-left{
+    /* width: 20%; */
+    margin-top: 10px;
+    flex: auto;
+    margin-left: 10px;
+  }
+
+  .column-right{
+    flex: auto;
+    /* width: 70%; */
+    margin-top: 1em;
+  }
+
+  .about-p{
+    font-size: 3vw;
+  }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+  .row{
+    display: block;
+    max-width: 100%;
+  }
+  .column-left{
+    flex: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+  .column-right{
+    flex: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+  }
+
+  .about-p{
+    font-size: 6vw;
+  }
+
+
+
 }
