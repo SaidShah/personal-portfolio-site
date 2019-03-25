@@ -48,6 +48,24 @@
   font-size: 1.5vw;
 }
 
+.my-progress{
+  width: 50%;
+  margin: auto;
+  height: 3em;
+  margin-right: 10px;
+  margin-left: 27vw;
+}
+
+.progress-row{
+  display: flex;
+}
+
+.progress-h1{
+  text-align: left;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
 
 /*
   ##Device = Tablets, Ipads (landscape)
@@ -57,6 +75,12 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .about-p{
     font-size: 3vw;
+  }
+
+  .progress-h1{
+    text-align: left;
+    margin-right: auto;
+    margin-top: 11px;
   }
 
 
@@ -93,6 +117,21 @@
     font-size: 3vw;
   }
 
+  .progress-h1{
+    text-align: left;
+    margin-right: auto;
+    margin-top: 11px;
+  }
+
+  .my-progress{
+    width: 50%;
+    margin: auto;
+    height: 3em;
+    margin-right: 10px;
+    margin-left: 23vw;
+  }
+
+
 }
 
 /*
@@ -124,6 +163,19 @@
     font-size: 6vw;
   }
 
+  .progress-h1{
+    text-align: left;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .my-progress{
+    width: 50%;
+    margin: auto;
+    height: 3em;
+    margin-right: 10px;
+    margin-left: 5vw;
+  }
 
 
 }

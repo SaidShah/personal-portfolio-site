@@ -35,16 +35,16 @@ _onToggleNav = () => {
       <a className="nav-link black-text navbar-font" href="/">Home</a>
     </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="#about">About</a>
+        <a className="nav-link navbar-font black-text" href="/#about">About</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="#experience">Experience</a>
+        <a className="nav-link navbar-font black-text" href="/#experience">Experience</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="#recent">Recent Projects</a>
+        <a className="nav-link navbar-font black-text" href="/#recent">Recent Projects</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="#contact">Contact</a>
+        <a className="nav-link navbar-font black-text" href="/#contact">Contact</a>
       </li>
       <li className="nav-item">
         <a className="nav-link navbar-font black-text" href="/resume">Resume</a>

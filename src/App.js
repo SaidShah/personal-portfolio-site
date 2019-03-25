@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar'
-import About from './components/About'
-import welcome from './images/welcome-image.png'
+import Home from './components/Home'
+import Resume from './components/Resume'
 import Bounce from 'react-reveal/Bounce'
+import {withRouter, Switch, Route} from 'react-router-dom'
 import './App.css';
 
 class App extends Component {
@@ -14,17 +15,13 @@ class App extends Component {
         <Navbar/>
         </Bounce>
       </div>
-      <div>
-        <Bounce left>
-        <img src={welcome} alt="welcome" className="welcome"></img>
-        </Bounce>
-      </div>
-      <div className="about" id="about">
-          <About/>
-      </div>
+      <Switch>
+      <Route path="/resume" render={()=><Resume/>}/>
+      <Route path="/" render={()=><Home/>}/>
+      </Switch>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

@@ -18,6 +18,7 @@ const About = () => (
         <p className="about-p">This website was created using React, Javascript, CSS and MDBootstrap. Please feel free to look at my Linked In profile, my GitHub repositories, or just email me if you would like to get in touch. The links are above right under my name in the header of this page. Just click on the icons. I have posted videos below from some of the projects I have completed. Below is a chart of my skill level in each programming language.</p>
     </div>
   </Reveal>
+
 </div>
 );
 
