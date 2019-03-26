@@ -66,6 +66,38 @@
   margin-top: 10px;
 }
 
+.experience-row{
+  /* display: flex; */
+  margin-left: 27vw;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.experience-div{
+  width: 34vw;
+  padding: 1.5vw;
+}
+
+.experience-h1{
+  margin-left: 10px;
+}
+
+.white-bg{
+  background: #e9ecef;
+  color: #057aff;
+}
+
+.blue-bg{
+  background: #057aff;
+  color: white;
+}
+
+.experience-p{
+  margin-left: 2vw;
+  margin-right: 3vw;
+}
+
 
 /*
   ##Device = Tablets, Ipads (landscape)
@@ -131,6 +163,16 @@
     margin-left: 23vw;
   }
 
+  .white-bg{
+    background: #e9ecef;
+    color: #057aff;
+  }
+
+  .blue-bg{
+    background: #057aff;
+    color: white;
+  }
+
 
 }
 
@@ -176,6 +218,40 @@
     margin-right: 10px;
     margin-left: 5vw;
   }
+
+  .experience-row{
+    display: block;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .experience-div{
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #057aff;
+    padding: 2.5vw;
+  }
+
+  .experience-h1{
+    margin-left: 5vw;
+  }
+
+  .white-bg-mobile{
+    background: #e9ecef;
+    color: #057aff;
+  }
+
+  .blue-bg-mobile{
+    background: #057aff;
+    color: white;
+  }
+
+  .experience-p{
+    margin-left: 10vw;
+    margin-right: 7vw;
+  }
+
 
 
 }
