@@ -17,6 +17,7 @@ const Home = () => (
     <Bounce left>
     <img src={welcome} alt="welcome" className="welcome" id="img"></img>
     </Bounce>
+    <h1 className="my-name">Said B Shah</h1>
   </div>
 
   <div className="about" id="about">

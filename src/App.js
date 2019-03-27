@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import Footer from './components/Footer'
 import Resume from './components/Resume'
 import Bounce from 'react-reveal/Bounce'
 import {withRouter, Switch, Route} from 'react-router-dom'
@@ -19,6 +20,7 @@ class App extends Component {
       <Route path="/resume" render={()=><Resume/>}/>
       <Route path="/" render={()=><Home/>}/>
       </Switch>
+      <Footer/>
       </div>
     );
   }
