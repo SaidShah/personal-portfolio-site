@@ -4,8 +4,10 @@ import Bounce from 'react-reveal/Bounce'
 import Progress from './Progress'
 import Flip from 'react-reveal/Flip'
 import Spin from 'react-reveal/Spin'
+import Jello from 'react-reveal/Jello'
 import About from './About'
 import Experience from './Experience'
+import Projects from './Projects'
 
 
 const Home = () => (
@@ -34,8 +36,8 @@ const Home = () => (
   </div>
 
 
-  <div>
-  <div className="row" id="experience">
+  <div  id="experience">
+  <div className="row">
     <div className="column-left">
     <Spin>
         <h1 className="bold-text">Experience</h1>
@@ -43,6 +45,17 @@ const Home = () => (
     </div>
   </div>
     <Experience/>
+  </div>
+
+  <div  id="recent">
+  <div className="row">
+    <div className="column-left">
+    <Jello>
+        <h1 className="bold-text">Recent Projects</h1>
+    </Jello>
+    </div>
+  </div>
+    <Projects/>
   </div>
 
   </>

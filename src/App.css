@@ -93,9 +93,30 @@
   color: white;
 }
 
+.bl-txt{
+  color: #057aff;
+}
+
 .experience-p{
   margin-left: 2vw;
   margin-right: 3vw;
+}
+
+.video-tag{
+  width: 50vw;
+  margin-left: 8vw;
+}
+
+.video-div{
+  background: #057aff;
+  padding: 20px;
+  margin-right: 3.5vw;
+}
+
+.video-div-gray{
+  background: #e9ecef;
+  padding: 20px;
+  margin-right: 3.5vw;
 }
 
 
@@ -114,6 +135,18 @@
     margin-right: auto;
     margin-top: 11px;
   }
+
+  .video-tag{
+    margin-left: 7.5vw;
+  }
+
+  .video-div{
+    background: #057aff;
+    padding: 20px;
+    margin-right:5vw;
+  }
+
+
 
 
 }
@@ -171,6 +204,15 @@
   .blue-bg{
     background: #057aff;
     color: white;
+  }
+
+  .video-tag{
+    margin-left: 6vw;
+  }
+
+  .video-div{
+    background: #057aff;
+    margin-right: 5vw;
   }
 
 
@@ -251,6 +293,18 @@
     margin-left: 10vw;
     margin-right: 7vw;
   }
+
+  .video-tag{
+    width: 80vw;
+    margin-left: 0;
+  }
+
+  .video-div{
+    background: #057aff;
+    padding: 15px;
+    margin-right: 2vw;
+  }
+
 
 
 
