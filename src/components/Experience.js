@@ -85,7 +85,7 @@ const Experience = () => (
 
 <Zoom>
   <div className="experience-div blue-bg white-bg-mobile">
-  <h3 className="experience-h1">ASP.NET</h3>
+  <h3 className="experience-h1">ASP.NET & C#</h3>
   <p className="experience-p">* Movie Star Web Application</p>
   <p className="experience-p">* Validation Controls</p>
   <p className="experience-p">* Data Source Controls</p>

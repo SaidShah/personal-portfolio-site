@@ -22,8 +22,8 @@ const Resume = () => (
 
 <Rotate top left>
   <div className="resume-h5-div">
-  <h5 className="font-title">Creative, technically skilled and dedicated full-stack developer. Seeking a position where I can contribute using
-      my proficiency and knowledge in developing full scale applications.</h5>
+  <h5 className="font-title">Creative, technically skilled and dedicated full-stack developer with knowledge in developing full scale applications, and a proven track record of excelling at learning new technologies. 
+          I am highly organized and work exceptionally well within a team environment.</h5>
   </div>
 </Rotate>
 
@@ -122,10 +122,22 @@ const Resume = () => (
 </Jello>
   <div className="projects-div-resume">
 
-  <Zoom right>
-  <h5 className="resume-topics-names">Freelance Web Developer <span><p> Five Boroughs, NY 09/2018 - Present</p></span></h5>
+  <Roll left>
+  <h5 className="resume-topics-names">Software engineer - andculture    <span><p> Harrisburg, PA 04/2010 - Present</p></span></h5>
   <ul className="font-1-5">
-  <li>Built multiple end-to-end websites in React, Javascript, Java, Ruby and Rails.</li>
+  <li>Develop software utilizing software development life cycle techniques including development,  
+    user acceptance testing and system integration testing </li>
+  <li>Collaborate with in-house designers and strategists to ensure business requirements are completed accurately as well 
+    as assisting clients with UI/UX challenges they face </li>
+  <li>Utilize programming skills to implement dynamic and fully responsive web applications</li>
+  <li>Utilize Technical skills to perform maintenance on web applications with over 200,000 users </li>
+  </ul>
+</Roll>
+
+  <Zoom right>
+  <h5 className="resume-topics-names">Freelance Web Developer <span><p> Five Boroughs, NY 09/2016 - 04/2019</p></span></h5>
+  <ul className="font-1-5">
+  <li>Built multiple end-to-end websites for small-businesses using React, JavaScript, HTML, Rails, .Net and Node </li>
   <li>Collaborated with IT staff to implement specific requirements.</li>
   <li>Designed optimized websites, with best practices for SEO, speed and user experience.</li>
   </ul>
@@ -139,26 +151,6 @@ const Resume = () => (
   <li>Completed daily paperwork and trip logs.</li>
   </ul>
   </Wobble>
-
-<Spin>
-  <h5 className="resume-topics-names">My 3 Sons Vending   <span><p> New Hyde Park, NY 04/2014 - 06/2015</p></span></h5>
-  <ul className="font-1-5">
-  <li>Communicated and coordinated between clients, vendors and other associates to streamline deliveries.</li>
-  <li>Trained in response to emergency situations related to CDL Owners Operators.</li>
-  <li>Planned routes of delivery sites to be visited and ensured the fastest and least expensive service.</li>
-  </ul>
-</Spin>
-
-<Roll left>
-  <h5 className="resume-topics-names">Owner/Operator JR’s Coffee Catering    <span><p> Syosset, NY 08/2007 - 09/2013</p></span></h5>
-  <ul className="font-1-5">
-  <li>Resolved customer issues concerning products and equipment.</li>
-  <li>Maintained accurate records of truck inventory and product movement.</li>
-  <li>Monitored shelf life and sales of products to minimize spoilage and losses.</li>
-  <li>Collected payments and informed customers about new products.</li>
-  </ul>
-</Roll>
-
 
   </div>
 
