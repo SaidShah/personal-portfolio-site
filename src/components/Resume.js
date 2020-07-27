@@ -22,8 +22,9 @@ const Resume = () => (
 
 <Rotate top left>
   <div className="resume-h5-div">
-  <h5 className="font-title">Creative, technically skilled and dedicated full-stack developer with knowledge in developing full scale applications, and a proven track record of excelling at learning new technologies. 
-          I am highly organized and work exceptionally well within a team environment.</h5>
+  <h5 className="font-title">Creative, technically skilled and dedicated full-stack developer with knowledge in developing full scale applications, 
+  and a proven track record of excelling at learning new technologies. 
+          I am highly organized and work exceptionally well within a team environment or remotely.</h5>
   </div>
 </Rotate>
 
@@ -33,7 +34,7 @@ const Resume = () => (
 </Jello>
 <Spin>
     <ul className="font-1-5">
-      <li>Java, JavaFX, Linux, C#, Ruby, React, Redux, .Net Framework, Git, JavaScript & Rails</li>
+      <li>.Net Framework, C#, React, TypeScript, Java, Git, & JavaScript</li>
       <li>HTML, CSS, Gimp, Bootstrap & Material UI</li>
       <li>MySQL, Active Record & Postgresql</li>
       <li>Eclipse, IntelliJ, NetBeans, & Visual Studio</li>
@@ -41,7 +42,7 @@ const Resume = () => (
     </ul>
 </Spin>
 <Jello>
-    <h4 className="resume-topics">Recent Projects:</h4>
+    <h4 className="resume-topics">Personal Projects:</h4>
 </Jello>
     <div className="projects-div-resume">
     <Spin>
@@ -90,6 +91,15 @@ const Resume = () => (
 </Jello>
   <div className="projects-div-resume">
 
+  <Wobble>
+  <h5 className="resume-topics-names">Purdue University <span><p> Indianapolis, IN 04/2019 - 06/2020</p></span></h5>
+  <ul className="font-1-5">
+  <li>Bachelor of Science in Information Technology</li>
+  <li>Graduated Magna Cum Laude</li>
+  <li>Deans List during every semester</li>
+  </ul>
+  </Wobble>
+
   <Zoom left>
   <h5 className="resume-topics-names">Flatiron School Coding Boot Camp <span><p> Brooklyn, NY 10/18 - 01/25/2019</p></span></h5>
   <ul className="font-1-5">
@@ -102,7 +112,7 @@ const Resume = () => (
   <Spin>
   <h5 className="resume-topics-names">Suffolk County Community College <span><p> Brentwood, NY 01/2016 - 09/2018</p></span></h5>
   <ul className="font-1-5">
-  <li>Degree in Information Technology - Honors</li>
+  <li>Associate Degree in Information Technology - Honors</li>
   <li>SCCC Computer Science-Technology Award 2017-2018</li>
   <li>Member of Phi Theta Kappa Honors Society</li>
   </ul>
@@ -123,7 +133,7 @@ const Resume = () => (
   <div className="projects-div-resume">
 
   <Roll left>
-  <h5 className="resume-topics-names">Software engineer - andculture    <span><p> Harrisburg, PA 04/2010 - Present</p></span></h5>
+  <h5 className="resume-topics-names">Software engineer - Andculture    <span><p> Harrisburg, PA 04/2019 - Present</p></span></h5>
   <ul className="font-1-5">
   <li>Develop software utilizing software development life cycle techniques including development,  
     user acceptance testing and system integration testing </li>
@@ -135,7 +145,7 @@ const Resume = () => (
 </Roll>
 
   <Zoom right>
-  <h5 className="resume-topics-names">Freelance Web Developer <span><p> Five Boroughs, NY 09/2016 - 04/2019</p></span></h5>
+  <h5 className="resume-topics-names">Freelance Web Developer - SBS Tech <span><p> Five Boroughs, NY 09/2016 - 04/2019</p></span></h5>
   <ul className="font-1-5">
   <li>Built multiple end-to-end websites for small-businesses using React, JavaScript, HTML, Rails, .Net and Node </li>
   <li>Collaborated with IT staff to implement specific requirements.</li>

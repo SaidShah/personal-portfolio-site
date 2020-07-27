@@ -50,7 +50,7 @@
 }
 
 .about-p{
-  font-size: 1.5vw;
+  font-size: 1.5rem;
 }
 
 .my-progress{
@@ -81,7 +81,7 @@
 
 .experience-div{
   width: 34vw;
-  padding: 1.5vw;
+  padding: 1.5rem;
 }
 
 .experience-h1{
@@ -157,7 +157,7 @@
 }
 
 .font-1-5{
-  font-size: 1.5vw;
+  font-size: 1.5rem;
 }
 
 .resume-ul{
@@ -165,15 +165,15 @@
 }
 
 .resume-topics{
-  font-size: 2.5vw;
+  font-size: 2.5rem;
 }
 
 .font-title{
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 .resume-topics-names{
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 .projects-div-resume{
@@ -212,19 +212,19 @@
     font-size: 5vw;
   }
   .resume-topics{
-    font-size: 3vw;
+    font-size: 3rem;
   }
 
   .font-1-5{
-    font-size: 2.5vw;
+    font-size: 2.5rem;
   }
 
   .font-title{
-    font-size: 2.5vw;
+    font-size: 2.5rem;
   }
 
   .resume-topics-names{
-    font-size: 2.5vw;
+    font-size: 2.5rem;
   }
 }
 
@@ -304,19 +304,19 @@
   }
 
   .resume-topics{
-    font-size: 3.5vw;
+    font-size: 3.5rem;
   }
 
   .font-1-5{
-    font-size: 2vw;
+    font-size: 2rem;
   }
 
   .font-title{
-    font-size: 2.5vw;
+    font-size: 2.5rem;
   }
 
   .resume-topics-names{
-    font-size: 2.5vw;
+    font-size: 2.5rem;
   }
 }
 
@@ -433,15 +433,15 @@
   }
 
   .resume-topics{
-    font-size: 6vw;
+    font-size: 6rem;
   }
 
   .font-title{
-    font-size: 4vw;
+    font-size: 4rem;
   }
 
   .resume-topics-names{
-    font-size: 4.2vw;
+    font-size: 4.2rem;
   }
 
 }

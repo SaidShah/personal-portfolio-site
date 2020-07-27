@@ -30,7 +30,7 @@ const Experience = () => (
 
 <Zoom>
   <div className="experience-div white-bg blue-bg-mobile">
-  <h3 className="experience-h1">React & Redux</h3>
+  <h3 className="experience-h1">React, TypeScript, & Redux</h3>
   <p className="experience-p">* ZaiN - Learn English Platform</p>
   <p className="experience-p">* Ticker - Stock Market Simulation App</p>
   <p className="experience-p">* Extreme Coding School - Coding bootcamp for kids and adults</p>

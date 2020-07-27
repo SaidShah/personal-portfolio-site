@@ -7,7 +7,7 @@ const Progress = () => (
   <LightSpeed left>
   <div className="progress-row">
   <MDBProgress value={78} className="my-2 my-progress"/>
-  <h3 className="progress-h1">Java: 78%</h3>
+  <h3 className="progress-h1">.NET: 78%</h3>
   </div>
   </LightSpeed>
 
@@ -20,8 +20,8 @@ const Progress = () => (
 
   <LightSpeed left>
   <div className="progress-row">
-  <MDBProgress value={60} className="my-2 my-progress"/>
-  <h3 className="progress-h1">Ruby: 60%</h3>
+  <MDBProgress value={94} className="my-2 my-progress"/>
+  <h3 className="progress-h1">TypeScript: 94%</h3>
   </div>
   </LightSpeed>
 
@@ -56,7 +56,7 @@ const Progress = () => (
   <LightSpeed left>
   <div className="progress-row">
   <MDBProgress value={55} className="my-2 my-progress"/>
-  <h3 className="progress-h1">.Net: 55%</h3>
+  <h3 className="progress-h1">Java: 55%</h3>
   </div>
   </LightSpeed>
 

@@ -52,7 +52,7 @@ const Home = () => (
   <div className="row">
     <div className="column-left">
     <Jello>
-        <h1 className="bold-text">Recent Projects</h1>
+        <h1 className="bold-text">Personal Projects</h1>
     </Jello>
     </div>
   </div>
