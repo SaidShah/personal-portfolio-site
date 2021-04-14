@@ -7,6 +7,7 @@ import Spin from 'react-reveal/Spin';
 import Wobble from 'react-reveal/Wobble';
 import Zoom from 'react-reveal/Zoom';
 import Roll from 'react-reveal/Roll';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 const Resume = () => (
   <>
@@ -34,7 +35,7 @@ const Resume = () => (
 </Jello>
 <Spin>
     <ul className="font-1-5">
-      <li>.Net Framework, C#, React, TypeScript, Java, Git, & JavaScript</li>
+      <li>.Net Framework, C#, React, TypeScript, Git, & JavaScript</li>
       <li>HTML, CSS, Gimp, Bootstrap & Material UI</li>
       <li>MySQL, Active Record & Postgresql</li>
       <li>Eclipse, IntelliJ, NetBeans, & Visual Studio</li>
@@ -132,8 +133,18 @@ const Resume = () => (
 </Jello>
   <div className="projects-div-resume">
 
+  <LightSpeed>
+  <h5 className="resume-topics-names">Software engineer - AutomotiveMastermind<span><p> New York, NY 03/2021 - Present</p></span></h5>
+  <ul className="font-1-5">
+  <li>Develop features using React, TypeScript, .Net Core, and other technologies  </li>
+  <li>Follow Agile Methodologies to ensure accountability and on time delivery of features </li>
+  <li>Find and fix bugs on front-end and back-end </li>
+  <li>Always aimed to achieve 100% code coverage by writing unit and integration tests </li>
+  </ul>
+  </LightSpeed>
+
   <Roll left>
-  <h5 className="resume-topics-names">Software engineer - Andculture    <span><p> Harrisburg, PA 04/2019 - Present</p></span></h5>
+  <h5 className="resume-topics-names">Software engineer - Andculture    <span><p> Harrisburg, PA 04/2019 - 02/2021</p></span></h5>
   <ul className="font-1-5">
   <li>Develop software utilizing software development life cycle techniques including development,  
     user acceptance testing and system integration testing </li>
@@ -142,7 +153,7 @@ const Resume = () => (
   <li>Utilize programming skills to implement dynamic and fully responsive web applications</li>
   <li>Utilize Technical skills to perform maintenance on web applications with over 200,000 users </li>
   </ul>
-</Roll>
+  </Roll>
 
   <Zoom right>
   <h5 className="resume-topics-names">Freelance Web Developer - SBS Tech <span><p> Five Boroughs, NY 09/2016 - 04/2019</p></span></h5>
