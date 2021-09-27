@@ -1,74 +1,53 @@
 import React from 'react';
 import LightSpeed from 'react-reveal/LightSpeed';
-import { MDBProgress } from 'mdbreact';
 
 const Progress = () => (
   <>
   <LightSpeed left>
   <div className="progress-row">
-  <MDBProgress value={78} className="my-2 my-progress"/>
-  <h3 className="progress-h1">.NET Core: 78%</h3>
+    <div className="tech-logo-container">
+      <img src={require("../images/csharp.png")} className="tech-logo" alt="csharp logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/docker.png")} className="tech-logo" alt="docker logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/react.png")} className="tech-logo" alt="react logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/typescript logo.png")} className="tech-logo" alt="typescript logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/css.png")} className="tech-logo" alt="css logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/aws.png")} className="tech-logo" alt="aws logo"/>
+    </div>
   </div>
   </LightSpeed>
 
   <LightSpeed left>
   <div className="progress-row">
-  <MDBProgress value={78} className="my-2 my-progress"/>
-  <h3 className="progress-h1">C#: 78%</h3>
+    <div className="tech-logo-container">
+      <img src={require("../images/dot-net-core.png")} className="tech-logo" alt="dot net core logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/html.png")} className="tech-logo" alt="html logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/javascript.png")} className="tech-logo" alt="javascript logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/jest.jpeg")} className="tech-logo" alt="jest logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/mySql.png")} className="tech-logo" alt="my sql logo"/>
+    </div>
+    <div className="tech-logo-container">
+      <img src={require("../images/git.png")} className="tech-logo" alt="git logo"/>
+    </div>
   </div>
   </LightSpeed>
-
-  <LightSpeed left>
-  <div className="progress-row">
-  <MDBProgress value={94} className="my-2 my-progress"/>
-  <h3 className="progress-h1">TypeScript: 94%</h3>
-  </div>
-  </LightSpeed>
-
-  <LightSpeed left>
-  <div className="progress-row">
-  <MDBProgress value={94} className="my-2 my-progress"/>
-  <h3 className="progress-h1">React: 94%</h3>
-  </div>
-  </LightSpeed>
-
-  <LightSpeed left>
-  <div className="progress-row">
-  <MDBProgress value={84} className="my-2 my-progress"/>
-  <h3 className="progress-h1">React Native: 84%</h3>
-  </div>
-  </LightSpeed>
-
-  <LightSpeed left>
-  <div className="progress-row">
-  <MDBProgress value={90} className="my-2 my-progress"/>
-  <h3 className="progress-h1">JS: 90%</h3>
-  </div>
-  </LightSpeed>
-
-  <LightSpeed left>
-  <div className="progress-row">
-  <MDBProgress value={85} className="my-2 my-progress"/>
-  <h3 className="progress-h1">SQL: 85%</h3>
-  </div>
-  </LightSpeed>
-
-  <LightSpeed left>
-  <div className="progress-row">
-  <MDBProgress value={90} className="my-2 my-progress"/>
-  <h3 className="progress-h1">HTML5: 90%</h3>
-  </div>
-  </LightSpeed>
-
-  <LightSpeed left>
-  <div className="progress-row">
-  <MDBProgress value={80} className="my-2 my-progress"/>
-  <h3 className="progress-h1">SCSS: 80%</h3>
-  </div>
-  </LightSpeed>
-
-
-
   </>
 );
 

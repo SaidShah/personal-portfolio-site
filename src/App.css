@@ -53,16 +53,18 @@
   font-size: 1.5rem;
 }
 
-.my-progress{
-  width: 50%;
-  margin: auto;
-  height: 3em;
-  margin-right: 10px;
-  margin-left: 27vw;
+.tech-logo {
+  width: 100%;
+  padding: 20px;
+}
+
+.tech-logo-container {
+  width: 200px;
 }
 
 .progress-row{
   display: flex;
+  padding-left: 27vw;
 }
 
 .progress-h1{
@@ -327,6 +329,14 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+  .progress-row{
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .tech-logo {
+    padding: 2px;
+  }
 
   .row{
     display: block;

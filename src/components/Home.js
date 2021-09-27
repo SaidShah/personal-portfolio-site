@@ -29,7 +29,7 @@ const Home = () => (
   <div className="row">
   <Flip right>
     <div className="column-left">
-        <h1 className="bold-text">Proficiency</h1>
+        <h1 className="bold-text">Skills</h1>
     </div>
   </Flip>
   </div>
