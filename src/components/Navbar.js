@@ -58,6 +58,9 @@ _onToggleNav = () => {
       <li className="nav-item">
         <a className="nav-link navbar-font black-text" href="https://www.linkedin.com/in/said-shah-12869b120/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </li>
+      <li className="nav-item">
+        <a className="nav-link navbar-font black-text" href="/nft" rel="noopener noreferrer">NFT</a>
+      </li>
     </ul>
   </div>
 </nav>

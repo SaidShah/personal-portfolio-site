@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import Resume from './components/Resume'
 import Bounce from 'react-reveal/Bounce'
+import Nft from './components/Nft';
 import {withRouter, Switch, Route} from 'react-router-dom'
 import './App.css';
 
@@ -17,6 +18,7 @@ class App extends Component {
         </Bounce>
       </div>
       <Switch>
+      <Route path="/nft" render={()=><Nft/>}/>
       <Route path="/resume" render={()=><Resume/>}/>
       <Route path="/" render={()=><Home/>}/>
       </Switch>

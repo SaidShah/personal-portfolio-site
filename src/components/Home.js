@@ -1,6 +1,7 @@
 import React from 'react';
 import welcome from '.././images/welcome-image.png'
 import Bounce from 'react-reveal/Bounce'
+import Certifications from './Certifications';
 import Progress from './Progress'
 import Flip from 'react-reveal/Flip'
 import Spin from 'react-reveal/Spin'
@@ -22,6 +23,10 @@ const Home = () => (
 
   <div className="about" id="about">
       <About/>
+  </div>
+
+  <div className="about" id="about">
+      <Certifications/>
   </div>
 
 
