@@ -35,32 +35,32 @@ _onToggleNav = () => {
       <a className="nav-link black-text navbar-font" href="/">Home</a>
     </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="/#about">About</a>
+        <a className="nav-link navbar-font black-text" href="/#about" onClick={this._onToggleNav}>About</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="/#experience">Experience</a>
+        <a className="nav-link navbar-font black-text" href="/#experience" onClick={this._onToggleNav}>Experience</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="/#recent">Personal Projects</a>
+        <a className="nav-link navbar-font black-text" href="/#recent" onClick={this._onToggleNav}>Personal Projects</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="/#contact">Contact</a>
+        <a className="nav-link navbar-font black-text" href="/#contact" onClick={this._onToggleNav}>Contact</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="/resume">Resume</a>
+        <a className="nav-link navbar-font black-text" href="/resume" onClick={this._onToggleNav}>Resume</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="https://medium.com/@saidmysr20" target="_blank" rel="noopener noreferrer">Blog</a>
+        <a className="nav-link navbar-font black-text" href="https://medium.com/@saidmysr20" target="_blank" rel="noopener noreferrer" onClick={this._onToggleNav}>Blog</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="https://github.com/saidshah" target="_blank" rel="noopener noreferrer">Github</a>
+        <a className="nav-link navbar-font black-text" href="https://github.com/saidshah" target="_blank" rel="noopener noreferrer" onClick={this._onToggleNav}>Github</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link navbar-font black-text" href="https://www.linkedin.com/in/said-shah-12869b120/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a className="nav-link navbar-font black-text" href="https://www.linkedin.com/in/said-shah-12869b120/" target="_blank" rel="noopener noreferrer" onClick={this._onToggleNav}>LinkedIn</a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a className="nav-link navbar-font black-text" href="/nft" rel="noopener noreferrer">NFT</a>
-      </li>
+      </li> */}
     </ul>
   </div>
 </nav>

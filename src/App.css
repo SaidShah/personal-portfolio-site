@@ -212,21 +212,27 @@
     bottom: 40vw;
     left: 5vw;
     font-size: 5vw;
+    display: inline-block;
   }
   .resume-topics{
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .font-1-5{
-    font-size: 2.5rem;
+    font-size: 1.3rem;
   }
 
   .font-title{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .resume-topics-names{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  .resume-h5-div{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -236,6 +242,11 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+
+  .resume-h5-div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
   .row{
     display: flex;
@@ -303,22 +314,23 @@
     bottom: 40vw;
     left: 5vw;
     font-size: 5vw;
+    display: inline-block;
   }
 
   .resume-topics{
-    font-size: 3.5rem;
-  }
-
-  .font-1-5{
     font-size: 2rem;
   }
 
+  .font-1-5{
+    font-size: 1.3rem;
+  }
+
   .font-title{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .resume-topics-names{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -356,7 +368,7 @@
   }
 
   .about-p{
-    font-size: 6vw;
+    /* font-size: 6vw; */
   }
 
   .progress-h1{
@@ -426,32 +438,34 @@
     bottom: 40vw;
     left: 7vw;
     font-size: 7vw;
+    display: inline-block;
   }
+  
   .resume-hr{
     border: 2px black solid;
     width: 80%;
   }
 
   .resume-h5-div{
-    padding-left: 11vw;
-    padding-right: 10vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .font-1-5{
-    font-size: 4vw;
-    padding-left: 5vw;
+    font-size: 1.3rem;
+    padding-left: 1rem;
   }
 
   .resume-topics{
-    font-size: 6rem;
+    font-size: 2rem;
   }
 
   .font-title{
-    font-size: 4rem;
+    font-size: 1.5rem;
   }
 
   .resume-topics-names{
-    font-size: 4.2rem;
+    font-size: 1.5rem;
   }
 
 }
